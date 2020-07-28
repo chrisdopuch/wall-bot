@@ -17,7 +17,7 @@ async def on_ready():
     print(f"{bot.user.name} has connected to Discord!")
 
 
-@bot.command(name="main")
+@bot.command(name="main", help="The main command")
 async def main(ctx):
     await ctx.send("I am wall-bot, beep boop!")
 
