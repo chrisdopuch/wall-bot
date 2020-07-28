@@ -9,7 +9,7 @@ load_dotenv()
 TOKEN = os.getenv("DISCORD_TOKEN")
 
 client = discord.Client()
-bot = commands.Bot(command_prefix="!")
+bot = commands.Bot(command_prefix="!wallbot ")
 
 
 @bot.event
@@ -17,7 +17,7 @@ async def on_ready():
     print(f"{bot.user.name} has connected to Discord!")
 
 
-@bot.command(name="wallbot")
+@bot.command(name="main")
 async def main(ctx):
     await ctx.send("I am wall-bot, beep boop!")
 
