@@ -7,8 +7,13 @@ verify_ssl = true
 
 [packages]
 "discord.py" = "*"
+# this is redundant with django-environ and can be removed
+# once the bot code is refactored into the server
 python-dotenv = "*"
 django = "*"
+"django-heroku" = "*"
+gunicorn = "*"
+django-environ = "*"
 
 [requires]
 python_version = "3.7"

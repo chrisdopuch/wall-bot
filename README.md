@@ -6,8 +6,10 @@ I'm following this tutorial to get started: https://realpython.com/how-to-make-a
 
 ## Dependencies
 
-- Python 3.7 or greater
-- pipenv
+- [Python](https://www.python.org/downloads/) 3.7 or greater
+- [pipenv](https://pypi.org/project/pipenv/)
+- [heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
+- [Postgres DB](https://devcenter.heroku.com/articles/heroku-postgresql#local-setup)
 
 ## Setup
 
