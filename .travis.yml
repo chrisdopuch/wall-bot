@@ -4,6 +4,7 @@ python:
 services:
   - postgresql
 env:
+  - SECRET_KEY=fake_secret_key
   - DATABASE_URL=postgres://postgres:@127.0.0.1:5432/travis_ci_test
 install:
   - pip install pipenv
